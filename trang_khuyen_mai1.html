@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/nav_footer.css">
+    <link rel="stylesheet" href="css/trang_khuyen_mai.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/trang_dat_hang.js"></script>
+    <script src="js/trang_khuyen_mai.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+     <!------------------ĐÂY LÀ LOGO MESSENGER------------>
+     <div class="messenger">
+        <a href=""><i class="fab fa-facebook-messenger"></i></a>
+    </div>
+     <!--------------ĐÂY LÀ NÚT goToTop---------------> 
+     <div class="gototop" id ="gototop"> 
+        <a href="javascript:;"><i class="fa fa-angle-up angle-icon"></i></a>
+    </div>
+    <!---------------------------------ĐÂY LÀ THANH ĐĂNG NHẬP ----------------------------->
+      <!-----------------ĐÂY LÀ NÚT EXIT------------------------------>
+    <div><a href="#" class="exit"><i class="fas fa-times"></i></a></div>
+        <!--------------------------------------------------------------->
+        <div class="nhap-mat-khau" id="dangnhap">
+            <form class="thanh-nhap-password">
+                <h2>đăng nhập</h2>
+                <div class="account-password">
+                <h3>Tên tài khoản hoặc địa chỉ email*</h3>
+                <input type="text">
+                 </div>
+                <div class="account-password">
+                <h3>Mật khẩu*</h3>
+                <input type="password">
+                </div>
+                <div class="nut-dang-nhap">
+                    <button type="submit">Đăng nhập</button>
+                    <input type="checkbox">
+                    <h3>Ghi nhớ mật khẩu</h3>
+                </div>
+                <h3><a href="" target="_self">Quên mật khẩu?</a></h3>
+            </form>
+        </div>
+    <!--------------------------------------------------------------->
+   <!----------------Phần NAV------------------>
+   <nav >
+    <div class="allnav" id="allnav">
+    <div class="topfirst">
+        <div class="anhlogo"><img src="images2/logothuonghieu.png" alt="ảnh"></div>
+        <div class="tenthuonghieu">
+            <h1> Fresh Cake</h1>
+        </div>
+        <div class="thanhtimkiem"> 
+            <form class="menu-search">
+                <span><i class="fas fa-search"></i></span>
+                <input type="text" name="query" value autocomplete ="off" placeholder="Tìm kiếm ở đây....">
+                <input type="submit" value="Tìm kiếm"></input>		
+            </form>
+        </div>
+        <div class="all-menu-right">
+            <div>
+                <a class="dang-nhap" href="#dang-nhap " target="_self">đăng nhập / đăng ký</a>
+            </div>
+            <div>
+                <a href="" target="_self">giỏ hàng / 0 <span> đ </span><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="bia" id="bia">
+        <ul>
+            <li><a href="trang_chu.html" target="_self"><i class="fas fa-home"></i> Trang Chủ</a></li>
+            <li><a href="trang_gioi_thieu.html" target="_self">Giới Thiệu</i></a></li>
+            <li class="last">
+                <a href="#" target="_blank" >Kem các loại <i class="fas fa-caret-down"></i></a>
+                <ul class="list suplast" >
+                    <li><a href="trang_chu.html" target="_self"><i class="fas fa-circle"></i> Bánh sinh nhật</a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i> Bánh bông lan</a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i> Bánh cupcake</a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i> Kem ly</a></li>
+                </ul>
+            </li>  
+            <li><a href="trang_su_kien.html" target="_self">Tin Tức - Sự kiện</a></li>
+            <li><a href="trang_khuyen_mai1.html" target="_self">Khuyến Mãi</a></li>
+            <li><a href="trang_lien_he.html" target="_self">Liên Hệ</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+    <section>
+        <div class="tin-khuyen-mai">
+            <h1>Tin Khuyến Mãi</h1>
+            <hr>
+        </div>
+         <!----------------Phần slideshow------------------->
+         <div id="main-items">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class ="carousel-item active">
+                    <div class="all-khuyen-mai">
+                        <div class="main-content-khuyen-mai">
+                            <p class="date-khuyen-mai">5/7/2021, 06:55</p>
+                            <p class="title-khuyen-mai">Giảm giá 50% cho tất cả các loại bánh vào thứ 4 hàng tuần</p>
+                            <p class="content-khuyen-mai">
+                               <div class="content">
+                                Kể từ ngày 6/7/2021 tất cả các cửa hàng là chi nhánh của Fresh Cake 
+                                giảm giá trên toàn quốc vào thứ tư hàng tuần,chương trình giảm giá cực sốc Cho
+                                khách hàng , hãy đến với cửa hàng bánh kem của chúng tôi và trải nghiệm một lần nhé !.Chương
+                                trình kết thúc vào ngày 25/8/2021.
+                                </div>
+                               <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+                            </p>
+                        </div>
+                        <div class="main-picture-khuyen-mai">
+                            <div class="picture-khuyen-mai slice-items">
+                               <img src="images5/anh khuyen mai 1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="all-khuyen-mai">
+                        <div class="main-content-khuyen-mai">
+                            <p class="date-khuyen-mai">10/8/2021,15<sup>h</sup>30</p>
+                            <p class="title-khuyen-mai">Nhân đôi cho tình yêu thêm ngọt ngào với hương vị bánh kem</p>
+                            <p class="content-khuyen-mai">
+                               <div class="content">
+                                Chương trình bắt đầu từ ngày 11/8/2021, chúng tôi sẽ có chương trình khuyễn mãi dành riêng cho các cặp
+                                tình nhân, giúp cho mối quan hệ của họ càng thêm gắn kết với hương vị ngọt ngào của bánh nhân đôi hương vị tình yêu,
+                                chương trình áp dụng đến hết ngày 15/8/2021.
+                                </div>
+                                <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+                            </p>
+                        </div>
+                        <div class="main-picture-khuyen-mai">
+                            <div class="picture-khuyen-mai slice-items">
+                               <img src="images5/anh khuyen mai 6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                 <div class="carousel-item">
+                    <div class="all-khuyen-mai">
+                        <div class="main-content-khuyen-mai">
+                            <p class="date-khuyen-mai">25/7/2021,17<sup>h</sup> 00</p>
+                            <p class="title-khuyen-mai">Kinh doanh bánh ngọt cùng Fresh Cake </p>
+                            <p class="content-khuyen-mai">
+                               <div class="content">
+                                Chương trình bắt đầu từ ngày 11/8/2021, chúng tôi sẽ có chương trình khuyễn mãi dành riêng cho các cặp
+                                tình nhân, giúp cho mối quan hệ của họ càng thêm gắn kết với hương vị ngọt ngào của bánh nhân đôi hương vị tình yêu,
+                                chương trình áp dụng đến hết ngày 15/8/2021.
+                                </div>
+                                <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+                            </p>
+                        </div>
+                        <div class="main-picture-khuyen-mai">
+                            <div class="picture-khuyen-mai slice-items">
+                               <img src="images5/anh khuyen mai 3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="all-khuyen-mai">
+                        <div class="main-content-khuyen-mai">
+                            <p class="date-khuyen-mai">29/7/2021, 09:30</p>
+                            <p class="title-khuyen-mai">Nhận mã khách VIP Tiết Kiệm 20-35 % số tiền đặt mua </p>
+                            <p class="content-khuyen-mai">
+                               <div class="content">
+                                Chương trình bắt đầu vào ngày 30/7/2021, áp dụng cho tất cả khách hàng mua offtine và online kể từ lần 
+                                mua thứ 2, áp dụng trọn đời với tất cả sản phẩm, bạn còn trần chờ gì nữa nhanh tay đặt hàng ngay để nhận được ưu 
+                                đãi của chúng tôi nhé!
+                                </div>
+                                <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+                            </p>
+                        </div>
+                        <div class="main-picture-khuyen-mai">
+                            <div class="picture-khuyen-mai slice-items">
+                               <img src="images5/anh khuyen mai 4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev" >
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div> 
+               </div>
+        <hr>
+        <!---------------------------------------------------------------------->
+    <div class="all-khuyen-mai all-items main-items1">
+        <div class="main-picture-khuyen-mai">
+            <div class="picture-khuyen-mai picture-item">
+               <img src="images5/anh khuyen mai 2.jpg" alt="">
+            </div>
+        </div>
+        <div class="main-content-khuyen-mai">
+            <p class="date-khuyen-mai">8/7/2021, 08:30</p>
+            <p class="title-khuyen-mai">Miễn phí giao hàng trong nội thành < 3km </p>
+            <p class="content-khuyen-mai">
+               <div class="content">
+                Áp dụng kể từ ngày 9/7/2021 cho mỗi đơn đặt hàng ,mang đến trải nghiệm thân
+                thiện cho khách hàng ,chương trình kéo dài đến hết ngày 31/07/2021.
+                </div>
+                <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+            </p>
+        </div>
+    </div>
+
+    <div class="all-khuyen-mai all-items main-items2">
+        <div class="main-content-khuyen-mai">
+            <p class="date-khuyen-mai">25/7/2021,17<sup>h</sup> 00</p>
+            <p class="title-khuyen-mai">Kinh doanh bánh ngọt cùng Fresh Cake "Vốn chưa đến 2 triệu"</p>
+            <p class="content-khuyen-mai">
+               <div class="content">
+              Chương trình diễn ra bắt đầu vào ngày 26/7/2021, nếu bạn chưa có kinh nghiệm khởi nghiệp ? 
+              hãy thử bắt đầu ngay với chúng tôi và được trau dồi thêm kinh nghiệm bản thân vs số vốn cực
+               kì ưu đãi,chương trình kéo dài đến hết ngày 5/08/2021.
+                </div>
+                <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+            </p>
+        </div>
+        <div class="main-picture-khuyen-mai">
+            <div class="picture-khuyen-mai picture-item">
+               <img src="images5/anh khuyen mai 3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="all-khuyen-mai all-items main-items3">
+        <div class="main-picture-khuyen-mai">
+            <div class="picture-khuyen-mai picture-item">
+               <img src="images5/anh khuyen mai 4.jpg" alt="">
+            </div>
+        </div>
+        <div class="main-content-khuyen-mai">
+            <p class="date-khuyen-mai">29/7/2021, 09:30</p>
+            <p class="title-khuyen-mai">Nhận mã khách VIP Tiết Kiệm 20-35 % số tiền đặt mua </p>
+            <p class="content-khuyen-mai">
+               <div class="content">
+                Chương trình bắt đầu vào ngày 30/7/2021, áp dụng cho tất cả khách hàng mua offtine và online kể từ lần 
+                mua thứ 2, áp dụng trọn đời với tất cả sản phẩm, bạn còn trần chờ gì nữa nhanh tay đặt hàng ngay để nhận được ưu 
+                đãi của chúng tôi nhé!
+                </div>
+                <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+            </p>
+        </div>
+    </div>
+
+    <div class="all-khuyen-mai all-items main-items4">
+        <div class="main-content-khuyen-mai">
+            <p class="date-khuyen-mai">1/8/2021, 07:30</p>
+            <p class="title-khuyen-mai">Khuyễn mãi cực hót hàng tuần cho khách hàng đã đến với Fresh Cake</p>
+            <p class="content-khuyen-mai">
+               <div class="content">
+                Kể từ ngày 2/8/2021 tất cả các cửa hàng là chi nhánh của Fresh Cake 
+                giảm giá trên toàn quốc vào thứ hai hàng tuần,chương trình giảm giá cực sốc Cho
+                mọi gia đình và con em đến dịp sinh nhật sẽ được nhận ưu đãi cực sốc của chúng tôi.
+                </div>
+                <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+            </p>
+        </div>
+        <div class="main-picture-khuyen-mai">
+            <div class="picture-khuyen-mai picture-item">
+               <img src="images5/anh khuyen mai 5.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="all-khuyen-mai all-items main-items5">
+        <div class="main-picture-khuyen-mai">
+            <div class="picture-khuyen-mai picture-item">
+               <img src="images5/anh khuyen mai 6.png" alt="">
+            </div>
+        </div>
+        <div class="main-content-khuyen-mai">
+            <p class="date-khuyen-mai">10/8/2021,15<sup>h</sup>30</p>
+            <p class="title-khuyen-mai">Nhân đôi cho tình yêu thêm ngọt ngào với hương vị bánh kem</p>
+            <p class="content-khuyen-mai">
+               <div class="content">
+                Chương trình bắt đầu từ ngày 11/8/2021, chúng tôi sẽ có chương trình khuyễn mãi dành riêng cho các cặp
+                tình nhân, giúp cho mối quan hệ của họ càng thêm gắn kết với hương vị ngọt ngào của bánh nhân đôi hương vị tình yêu,
+                chương trình áp dụng đến hết ngày 15/8/2021.
+                </div>
+                <div class="xem-tiep">[<a href="">- Xem Tiếp </a>]</div>
+            </p>
+        </div>
+    </div>
+    <div class="all-nut-bam-khuyen-mai">
+        <div class="nut-bam-khuyen-mai"><a class="kich-hoat-lien-he" href="javascript:;">1</a></div>
+        <div class="nut-bam-khuyen-mai"><a  href="trang_khuyen_mai2.html" target="_self">2</a></div>
+        <div class="nut-bam-khuyen-mai"><a href="trang_khuyen_mai2.html" target="_self"><i class="fas fa-angle-right"></i></a></div>
+    </div>
+    </section>
+
+    <!-----------------------phần FOOTER----------------------->
+    <footer>
+        <div class="foots">
+        <div class="top-footer">
+            <div>
+                <i class="fas fa-truck"></i> <h3>MIỄN PHÍ VẬN CHUYỂN
+                    Cho Đơn Đặt Hàng Trên 300.000 Đ</h3>
+            </div>
+            <div>
+                <i class="fas fa-undo"></i><h3> HOÀN 100% TIỀN MUA HÀNG
+                    Trong vòng 7 ngày</h3>
+            </div>
+            <div>
+                <i class="fas fa-shopping-bag"></i> <h3>GIAO HÀNG NHANH CHÓNG
+                    Sau 2h kể từ khi xác nhận</h3>
+            </div>
+            <div>
+                 <i class="fas fa-phone-volume"></i> <h3> Hotline - Hỗ trợ trực tuyến:
+                    0987535533 - 0463289232</h3>
+            </div>
+        </div>
+        <div class="all-footer">
+        <div class="foot">
+            <h2>Liên hệ</h2>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Địa chỉ: 319/18 Lê Thánh Tông, Phường 15, Quận 11, Tp.HCM</li>
+                <li><i class="fas fa-phone"></i> Điện thoại:<a href="tel:086502857" target="_blank"> 086502857</a></li>
+                <li><i class="fas fa-envelope"></i>  Gmail:<a href="mailto:2051052034hai@ou.edu.vn" target="_blank">2051052034hai@ou.edu.vn</a> </li>     
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Danh mục</h2>
+            <ul>
+                <li><a href="*" target="_blank">Bánh sinh nhật</a></li>
+                <li><a href="*" target="_blank">Bánh bông lan</a></li>
+                <li><a href="*" target="_blank">Bánh cupcake</a></li>
+                <li><a href="*" target="_blank">Kem ly</a></li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Mục lục</h2>
+            <ul>
+                <li><a href="*" target="_blank">Trang chủ</a></li>
+                <li><a href="*" target="_blank">Giới thiệu</a></li>
+                <li><a href="*" target="_blank">Kem các loại</a></li>
+                <li><a href="*" target="_blank">Tin tức-sự kiện</a></li>
+                <li><a href="*" target="_blank">Khuyến mãi</a></li>
+                <li><a href="*" target="_blank">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Liên kết</h2>
+            <ul>
+                <li><a href="*" target="_blank">Tài khoản</a></li>
+                <li><a href="*" target="_blank">Địa chỉ ngân hàng</a></li>
+                <li><a href="*" target="_blank">Theo dõi</a></li>
+                <li><a href="*" target="_blank">Hướng dẫn</a></li>
+                <li><a href="*" target="_blank">Liên hệ</a></li>
+            </ul>
+            <div class="foot">
+                <span class ="facebook"><a href="https:www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+                <span class ="youtube"><a href="https:www.youtube.com" target="_blank"><i class="fab fa-youtube"></a></i></span>
+                <span class="twitter"><a href="https:www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></a></i></span>
+                <span class="instagram"><a href="https:www.instagram.com" target="_blank"><i class="fab fa-instagram"></a></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="bottom-footer">
+            <h4>&copy; Come with me to experience the taste of cake.</h4>
+        </div>
+    </footer>
+    </body>      
+</html>
