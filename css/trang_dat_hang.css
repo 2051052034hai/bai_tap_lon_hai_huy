@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .all{
     display: flex;
     padding-top: 50px;
@@ -659,6 +662,9 @@ padding: 20px;
 .content-mota > p > span{
 font-size: 30px;
 font-weight: bold;
+}
+.content-mota > h3{
+    font-size: 30px;
 }
 .hr{
 margin: 0;

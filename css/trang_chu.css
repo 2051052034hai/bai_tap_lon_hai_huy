@@ -100,12 +100,16 @@
          /*////////SECTION////// */
         section.gioithieu {
            display: flex;
-            background-color:#f1f1f1; /* #ffd6da */ 
+            background-color:#f1f1f1; 
             justify-content: center;
+            padding-bottom: 20px;
+            padding-top:5px;
+         }
+         section.gioithieu > div{
+             width: 50%;
          }
          section.gioithieu > div > img {
-           width: 1100px;
-           height: 500px;
+           width: 100%;
            border-radius: 10000px 500px;
            padding-right: 100px;
          } 
@@ -134,6 +138,7 @@
              font-style: italic;
              background-color: pink;
              border-radius: 10px;
+             transition: all .7s ;
          }
          .box-name > a:hover {  
              color:white;
@@ -215,11 +220,10 @@
              color: white;
              padding: 20px;
              text-align: center;
-             font-size: 2vw;
          }
          section.subject > p {
             text-align: center;
-            font-size: 3vw;
+            font-size: 48px;
             color:white
          }
 /* //////////////////////CSS stats///////////////////////////// */
@@ -276,6 +280,8 @@
         text-decoration: none;
         color: black;
         font-weight: none;
+        transition: all .7s ;
+        border-radius: 10px;
        }
       div.gia > h3 > span > a:hover{
            background-color:brown;
@@ -326,6 +332,8 @@
         div .dangkhuyenmai > h3 >span:last-child > a{
            text-decoration: none;
            color:black;
+           transition:all .7s;
+           border-radius: 10px;
        }
        div .dangkhuyenmai > h3 >span:last-child > a:hover{
            background-color:brown;
@@ -515,14 +523,22 @@
       background-size: 100% 100%;
     }
 /* ///////////////////////Phần ảnh cuối trang////////////////////////// */
-    .product-of-the-season {
-     background-color: #e1f7ff;
-     padding-bottom: 50px;
+    div.all-info-bottom{
+        display: flex;
+        background-color: #e1f7ff;
     }
-    .san-pham-moi-o-cuoi-trang > img{ 
-        position:relative;
-        margin:0px 350px 0px 10px;
-    }
+   div.all-info-bottom > div{
+    width: 50%;
+   }
+   div.info-trung-thu-bottom{
+       padding:20px 50px;
+   }
+   div.picture-trung-thu-bottom {
+       padding: 20px;
+   }
+   div.picture-trung-thu-bottom img{
+    width: 100%;
+   }
     @keyframes  effect-image-bottom {
         from {
             opacity: 0;
@@ -585,4 +601,7 @@
     }
     .san-pham-moi-o-cuoi-trang {
         justify-content: center;
+    }
+    div.picture-trung-thu-bottom > figure h2{
+        font: 400 50px/1.3 'Dancing Script', Helvetica, sans-serif; 
     }

@@ -399,3 +399,20 @@ white-space: nowrap;
     padding:50px 0;
     font-weight: bolder;
 }
+/* Chỉnh nút next và pre cho slice picture */
+.carousel-control-prev,.carousel-control-next {
+    width: 20px !important;
+    top:70px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    color: black;
+    background-color: black;
+    position: absolute;
+    border-radius: 5px;
+}
+.carousel-control-prev-icon{
+    left: 6px;  
+}
+.carousel-control-next-icon{
+    right: 6px;
+}

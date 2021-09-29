@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trang_Bánh_Sinh_Nhật</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images2/logothuonghieu.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/nav_footer.css">
+    <link rel="stylesheet" href="css/trang_banh_sinh_nhat.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/trang_dat_hang.js"></script>
+    <script src="js/trang_banh_sinh_nhat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+</head>
+<body>
+      <!------------------ĐÂY LÀ LOGO MESSENGER------------>
+      <div class="messenger">
+        <a href=""><i class="fab fa-facebook-messenger"></i></a>
+    </div>
+     <!--------------ĐÂY LÀ NÚT goToTop---------------> 
+     <div class="gototop" id ="gototop"> 
+        <a href="javascript:;"><i class="fa fa-angle-up angle-icon"></i></a>
+    </div>
+    <!---------------------------------ĐÂY LÀ THANH ĐĂNG NHẬP ----------------------------->
+      <!-----------------ĐÂY LÀ NÚT EXIT------------------------------>
+    <div><a href="#" class="exit"><i class="fas fa-times"></i></a></div>
+        <!--------------------------------------------------------------->
+        <div class="nhap-mat-khau" id="dangnhap">
+            <form class="thanh-nhap-password">
+                <h2>đăng nhập</h2>
+                <div class="account-password">
+                <h3>Tên tài khoản hoặc địa chỉ email*</h3>
+                <input type="text">
+                 </div>
+                <div class="account-password">
+                <h3>Mật khẩu*</h3>
+                <input type="password">
+                </div>
+                <div class="nut-dang-nhap">
+                    <button type="submit">Đăng nhập</button>
+                    <input type="checkbox">
+                    <h3>Ghi nhớ mật khẩu</h3>
+                </div>
+                <h3><a href="" target="_self">Quên mật khẩu?</a></h3>
+            </form>
+        </div>
+    <!--------------------------------------------------------------->
+    <!----------------Phần NAV------------------>
+    <nav >
+        <div class="allnav" id="allnav">
+        <div class="topfirst">
+            <div class="anhlogo"><img src="images2/logothuonghieu.png" alt="ảnh"></div>
+           
+            <div class="tenthuonghieu">
+                <h1> Fresh Cake</h1>
+            </div>
+            <div class="thanhtimkiem"> 
+                <form class="menu-search">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" name="query" value autocomplete ="off" placeholder="Tìm kiếm ở đây....">
+                    <input type="submit" value="Tìm kiếm"></input>		
+                </form>
+            </div>
+            <div class="all-menu-right">
+                <div>
+                    <a class="dang-nhap" href="#dang-nhap " target="_self">đăng nhập / đăng ký</a>
+                </div>
+                <div>
+                    <a href="" target="_self">giỏ hàng / 0 <span> đ </span><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="bia" id="bia">
+            <ul>
+                <li><a href="trang_chu.html" target="_self"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                <li><a href="trang_gioi_thieu.html" target="_self">Giới Thiệu</i></a></li>
+                <li class="last">
+                    <a href="#" target="_blank" >Kem các loại <i class="fas fa-caret-down"></i></a>
+                    <ul class="list suplast" >
+                        <li><a href="trang_chu.html" target="_self"><i class="fas fa-circle"></i> Bánh sinh nhật</a></li>
+                        <li><a href="#"><i class="fas fa-circle"></i> Bánh bông lan</a></li>
+                        <li><a href="#"><i class="fas fa-circle"></i> Bánh cupcake</a></li>
+                        <li><a href="#"><i class="fas fa-circle"></i> Kem ly</a></li>
+                    </ul>
+                </li>  
+                <li><a href="trang_su_kien.html" target="_self">Tin Tức - Sự kiện</a></li>
+                <li><a href="trang_khuyen_mai1.html" target="_self">Khuyến Mãi</a></li>
+                <li><a href="trang_lien_he.html" target="_self">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+      <!--------------------Phần SECTION------------------------>
+    <section>
+        <div class="all-cake-items">
+            <div class="cake-item-left">
+                <ul class="menu container-web wow animate__fadeIn animate__slow">
+                    <li><a target="javasript:;" > <span><i class="fas fa-bars"></i></span> <span> DANH MỤC SẢN PHẨM</span></a></li>
+                    <li><a href="#">Bánh kem sinh nhật</a></li>
+                    <li><a href="#">Bánh kem tặng mẹ</a></li>
+                    <li><a href="#">Bánh kem tặng người yêu</a></li>
+                    <li><a href="#">Bánh kem tạo hình</a></li>
+                    <li><a href="#">Bánh kem theo chủ đề</a></li>
+                    <li><a href="#">Bánh kem theo hương vị</a></li>
+                    <li><a href="#">Bánh sự kiện lễ</a></li>
+                    <li><a href="#">Quà tặng - Hoa tươi</a></li>
+                    <li><a href="#">Trên 1.000.000 VNĐ</a></li>
+                    <li><a href="#">Dưới 1.000.000 VNĐ</a></li>
+                    <li><a href="#">Từ 700.000 - 1.000.000 VNĐ</a></li>
+                    <li><a href="#">Từ 500.000 - 700.000 VNĐ</a></li>
+                    <li><a href="#">Từ 300.000 - 500.000 VNĐ</a></li>
+                    <li><a href="#">Từ 200.000 - 300.000 VNĐ</a></li>
+                </ul>
+                <article>
+                    <div class="article-product container-web wow animate__fadeIn animate__slower	3s">
+                        <figure class="article-item">
+                            <img src="images5/sinh_nhat_khuyen_mai_1.jpg" alt="ảnh">
+                            <figcaption>
+                                <div class="name-cake"><h2>Bánh Búp Bê</h2></div>
+                                <h3>Sale</h3>
+                            </figcaption>
+                        </figure>
+                        <figure class="article-item ">
+                            <img src="images5/sinh_nhat_khuyen_mai_2.jpg" alt="ảnh">
+                            <figcaption>
+                                <div class="name-cake"><h2>Bánh Kem Hình Trái Tim</h2></div>
+                                <h3>Sale</h3>
+                            </figcaption>
+                        </figure>
+                        <figure class="article-item ">
+                            <img src="images5/sinh_nhat_khuyen_mai_3.png" alt="ảnh">
+                            <figcaption>
+                                <div class="name-cake"><h2>Bánh Kem Trái Tim </h2></div>
+                                <h3>Sale</h3>
+                            </figcaption>
+                        </figure>
+                        <figure class="article-item ">
+                            <img src="images5/sinh_nhat_khuyen_mai_4.jpg" alt="ảnh">
+                            <figcaption>
+                                <div class="name-cake"><h2>Bánh Sinh Nhật Cho Bé</h2></div>
+                                <h3>Sale</h3>
+                            </figcaption>
+                        </figure>
+                        <figure class="article-item ">
+                            <img src="images5/sinh_nhat_khuyen_mai_5.jpg "alt="ảnh">
+                            <figcaption>
+                                <div class="name-cake"><h2>Bánh Sinh Nhật In Hình</h2></div>
+                                <h3>Sale</h3>
+                            </figcaption>
+                        </figure>
+                        <figure class="article-item ">
+                            <img src="images5/sinh_nhat_khuyen_mai_6.png" alt="ảnh">
+                            <figcaption>
+                                <div class="name-cake"><h2>Bánh Sinh Nhật Tặng</h2></div>
+                                <h3>Sale</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <figure class="acticle-bottom container-web c4-izmir c4-border-cc-2 c4-gradient-bottom-left c4-image-zoom-in wow animate__fadeIn animate__slower 3s" 
+                    style="--primary-color: #ef6698;--secondary-color: #4028ac;">
+                        <img src="images5/anh_trang_trung_thu_acticle.jpg" alt="ảnh">
+                        <figcaption class="c4-layout-center-center">
+                            <div class="c4-izmir-icon-wrapper c4-fade">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+            <div class="cake-item-right container-web">
+                <div class="center-picture">
+                    <img src="images5/center-picture.jpg" alt="ảnh">
+                </div>
+                <div class="infor-hotline">
+                    <h3>Hotline: <span>0987535533 -  0463289232</span></h3>
+                    <h3>Website: <span>thietkeweb.com - Freshcake.com</span></h3>
+                </div>
+                <div class="h1">
+                    <h1>Bánh Kem Sinh Nhật</h1>
+                </div>
+                <div>
+                    <div class="icon-item-menu">
+                        <i class="fab fa-windows"></i>
+                        <i class="fas fa-indent"></i>
+                    </div>
+                </div>
+                <div class="three-cake-item ">
+                <div class="cake-item">               
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_1.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem 3 Tầng </a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product">
+                                <h2>650.000 VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="cake-item">
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_2.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Hoa Hồng</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product"> 
+                                <h2>370.000 VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="cake-item">
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_3.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Siêu Nhân</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product ">
+                                <h2>250.000VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="three-cake-item">
+                <div class="cake-item">               
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_4.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Tặng Bé</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product">
+                                <h2>500.000 VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="cake-item">
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_5.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Hình Thú</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product"> 
+                                <h2>410.000 VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="cake-item">
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_6.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Sinh Nhật</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product ">
+                                <h2>390.000VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="three-cake-item">
+                <div class="cake-item">               
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_7.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Tình Nhân </a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product">
+                                <h2>420.000 VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="cake-item">
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_8.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Tặng Bố</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product"> 
+                                <h2>860.000 VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="cake-item">
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_9.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Nâu Đẹp</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product ">
+                                <h2>300.000VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="three-cake-item">
+                <div class="cake-item">               
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_10.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Tặng Bé</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product">
+                                <h2>180.000 VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="cake-item">
+                    <figure>
+                        <div class="picture"><img src="images5/anh_banh_sinh_nhat_11.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem vui Nhộn</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product"> 
+                                <h2>670.000 VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="cake-item">
+                    <figure>
+                        <div class="picture"><img src="images5/anh_trang_trung_thu1.jpg" alt="ảnh"></div>
+                        <figcaption>
+                           <a href="#" target="_self">Bánh Kem Hoa Hồng...</a>
+                            <div class="starts">
+                                <b></b>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <b></b>
+                            </div>
+                            <div class="product ">
+                                <h2>580.000VNĐ</h2>
+                            </div>
+                            <div class="icon-item ">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-shopping-cart"></i>
+                                <i class="fas fa-code"></i>
+                                <h3 class="one">Thêm yêu thích</h3>
+                                <h3 class="two">Thêm vào giỏ</h3>
+                                <h3 class="three">Thêm so sánh</h3>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!------------------html phần sản phẩm bị ẩn-->
+         <div class="cake-item-bottom">
+            <div class="item-bottom">
+           <div class="picture-bottom">
+                <img src="images5/anh_banh_sinh_nhat_1.jpg" alt="ảnh">
+           </div>
+           <div class="info-picture-bottom">
+               <h1> <a href="#">Bánh kem 3 Tầng - H67</a> </h1>
+               <div class="stars-bottom">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+               </div>
+               <h3>650.000 VNĐ</h3>
+               <p>
+                Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                 bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+               </p>
+               <div class="icon-item bottom-icon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-code"></i>
+                <h3 class="one">Thêm yêu thích</h3>
+                <h3 class="two">Thêm vào giỏ</h3>
+                <h3 class="three">Thêm so sánh</h3>
+            </div>
+           </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_2.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Hoa Hồng</a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>370.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+      
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_3.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Siêu Nhân cho Bé </a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>250.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_4.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Sinh Nhật Tặng Bé</a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>500.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_5.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Hình Thú Tặng Bé </a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>410.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_6.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Tình Nhân </a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>420.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_7.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Tặng Bố </a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>860.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_8.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Sinh Nhật </a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>300.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_9.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Màu Nâu Đẹp </a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>300.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_10.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Tặng Bé Hình Trái Banh </a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>180.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_banh_sinh_nhat_11.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Sinh Nhật Vui Nhộn</a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>670.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+        <div class="item-bottom">
+            <div class="picture-bottom">
+                 <img src="images5/anh_trang_trung_thu1.jpg" alt="ảnh">
+            </div>
+            <div class="info-picture-bottom">
+                <h1> <a href="#">Bánh kem Hoa Hồng Hình tròn Tặng Người Yêu</a> </h1>
+                <div class="stars-bottom">
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+                </div>
+                <h3>410.000 VNĐ</h3>
+                <p>
+                 Từ những nguyên liệu có trong tự nhiên, các thợ làm bánh đã tạo ra những chiếc
+                  bánh sinh nhật đẹp với nhiều kích cỡ, kiểu dáng kh&..
+                </p>
+                <div class="icon-item bottom-icon">
+                 <i class="fas fa-heart"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <i class="fas fa-code"></i>
+                 <h3 class="one">Thêm yêu thích</h3>
+                 <h3 class="two">Thêm vào giỏ</h3>
+                 <h3 class="three">Thêm so sánh</h3>
+             </div>
+            </div>
+        </div>
+    </div>
+    <div class="all-nut-bam wow animate__fadeIn">
+        <div class="nut-bam">
+        <a href="#" target="_self">1</a>
+        <a href="#" target="_self">2</a>
+        <a href="#" target="_self">3</a>
+        <a href="#" target="_self">4</a>
+        <a href="#" target="_self">5</a>
+        <a href="#" target="_self">6</a>
+        <a href="#" target="_self">7</a>
+        <a href="#" target="_self">8</a>
+        <a href="#" target="_self">9</a>
+    </div>
+    <div class="chuyen-tiep">
+        <a href="#"><i class="fas fa-angle-left"></i></a>
+        <a href="#"><i class="fas fa-angle-right"></i></a>
+    </div>
+    </div>
+    </section>
+     <!-----------------------phần FOOTER----------------------->
+     <footer>
+        <div class="foots">
+        <div class="top-footer">
+            <div>
+                <i class="fas fa-truck"></i> <h3>MIỄN PHÍ VẬN CHUYỂN
+                    Cho Đơn Đặt Hàng Trên 300.000 Đ</h3>
+            </div>
+            <div>
+                <i class="fas fa-undo"></i><h3> HOÀN 100% TIỀN MUA HÀNG
+                    Trong vòng 7 ngày</h3>
+            </div>
+            <div>
+                <i class="fas fa-shopping-bag"></i> <h3>GIAO HÀNG NHANH CHÓNG
+                    Sau 2h kể từ khi xác nhận</h3>
+            </div>
+            <div>
+                 <i class="fas fa-phone-volume"></i> <h3> Hotline - Hỗ trợ trực tuyến:
+                    0987535533 - 0463289232</h3>
+            </div>
+        </div>
+        <div class="all-footer">
+        <div class="foot">
+            <h2>Liên hệ</h2>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Địa chỉ: 319/18 Lê Thánh Tông, Phường 15, Quận 11, Tp.HCM</li>
+                <li><i class="fas fa-phone"></i> Điện thoại:<a href="tel:086502857" target="_blank"> 086502857</a></li>
+                <li><i class="fas fa-envelope"></i>  Gmail:<a href="mailto:2051052034hai@ou.edu.vn" target="_blank">2051052034hai@ou.edu.vn</a> </li>     
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Danh mục</h2>
+            <ul>
+                <li><a href="*" target="_blank">Bánh sinh nhật</a></li>
+                <li><a href="*" target="_blank">Bánh bông lan</a></li>
+                <li><a href="*" target="_blank">Bánh cupcake</a></li>
+                <li><a href="*" target="_blank">Kem ly</a></li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Mục lục</h2>
+            <ul>
+                <li><a href="*" target="_blank">Trang chủ</a></li>
+                <li><a href="*" target="_blank">Giới thiệu</a></li>
+                <li><a href="*" target="_blank">Kem các loại</a></li>
+                <li><a href="*" target="_blank">Tin tức-sự kiện</a></li>
+                <li><a href="*" target="_blank">Khuyến mãi</a></li>
+                <li><a href="*" target="_blank">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Liên kết</h2>
+            <ul>
+                <li><a href="*" target="_blank">Tài khoản</a></li>
+                <li><a href="*" target="_blank">Địa chỉ ngân hàng</a></li>
+                <li><a href="*" target="_blank">Theo dõi</a></li>
+                <li><a href="*" target="_blank">Hướng dẫn</a></li>
+                <li><a href="*" target="_blank">Liên hệ</a></li>
+            </ul>
+            <div class="foot">
+                <span class ="facebook"><a href="https:www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+                <span class ="youtube"><a href="https:www.youtube.com" target="_blank"><i class="fab fa-youtube"></a></i></span>
+                <span class="twitter"><a href="https:www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></a></i></span>
+                <span class="instagram"><a href="https:www.instagram.com" target="_blank"><i class="fab fa-instagram"></a></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="bottom-footer">
+            <h4>&copy; Come with me to experience the taste of cake.</h4>
+        </div>
+    </footer>
+</body>
+</html>

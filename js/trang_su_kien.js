@@ -9,6 +9,7 @@ $(document).ready(function(){
             })
             wow.init();
     /* định dạng cho phần xem thêm */
+    
     $("div.tin_tuc_js").hide()
     $("div.xem-them-tin-tuc").click(function(){
         $(this).hide();

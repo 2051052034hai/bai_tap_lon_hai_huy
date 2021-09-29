@@ -1,5 +1,4 @@
 
-  /*  Javascrip xử lý hiệu ứng khi cick vào ảnh sản phẩm */
   /* Jquery định dạng cho thanh số lượng sản phẩm */
   $(document).ready(function(){
     var $this = $("input.input-qty");

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Trang_Đặt_Hàng</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images2/logothuonghieu.png" rel="shortcut icon" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -633,12 +634,13 @@
         </div>
     </footer>
     <script>
-        var images2 = document.querySelectorAll(".picture img")
-        for(var i = 0; i < images2.length; i++)
-        images2[i].onclick = function() {
-          var path = this.src
-          var img = document.getElementById("mainimage")
-          img.src = path
+        /*  Javascrip xử lý hiệu ứng khi cick vào ảnh sản phẩm */
+      var images2 = document.querySelectorAll(".picture img")
+      for(var i = 0; i < images2.length; i++)
+      images2[i].onclick = function() {
+        var path = this.src
+        var img = document.getElementById("mainimage")
+        img.src = path
       }
     </script>     
 </body>

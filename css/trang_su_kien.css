@@ -2,19 +2,17 @@
         .anh-header 
        {
           background-size: cover;
-          
+          background-attachment: fixed;
        }
-       .text-in-anh-header 
-       {
+       .text-in-anh-header {
            padding-top:200px;
            padding-bottom:200px;
            text-align: center;  
            color:rgb(15, 82, 58);
-           
        }
        .text-in-anh-header > h1
        {
-           font-size: 3vw;
+           font-size: 48px;
        }
        .text-in-anh-header > p
        {
@@ -210,7 +208,6 @@
         } 
         .image-after-banner > p 
         {
-
             color: white;
             font-weight: bold;
             position: absolute;
@@ -226,7 +223,6 @@
         }
          .image-after-banner > h1
         {
-       
             color: white;
             font-weight: bold;
             position: absolute;
@@ -243,8 +239,21 @@
         div.xem-them-tin-tuc > h3{
             background-color: deeppink;
             color: white;
-            padding: 10px 15px;
+            padding: 10px;
             width: 10%;
+            border-radius: 10px;
+            text-align: center;
             margin: 0 auto;
             margin-bottom: 20px;
+            transition: all .7s ease 0s;
+            cursor: pointer;
+        }
+        div.xem-them-tin-tuc > h3:hover{
+            background-color:#FF69B4;
+        }
+        div.all-card-tin-tuc{
+            display: flex;
+            flex-wrap: wrap;
+           margin-left: 6%;
+           margin-bottom: 30px;
         }
