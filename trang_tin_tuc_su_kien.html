@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trang_tin_tức_Sự_kiện</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images2/logothuonghieu.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/trang_su_kien.css">
+    <link href="css/nav_footer.css" rel="stylesheet" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/trang_su_kien.js"></script>
+    <script src="js/trang_dat_hang.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+</head>
+<body>
+    <!--------------ĐÂY LÀ NÚT goToTop---------------> 
+    <div class="gototop" id ="gototop"> 
+        <a href="javascript:;"><i class="fa fa-angle-up angle-icon"></i></a>
+    </div>
+   <!---------------------------------ĐÂY LÀ THANH ĐĂNG NHẬP ----------------------------->
+      <!-----------------ĐÂY LÀ NÚT EXIT------------------------------>
+      <div><a href="#" class="exit"><i class="fas fa-times"></i></a></div>
+      <!--------------------------------------------------------------->
+      <div class="nhap-mat-khau" id="dangnhap">
+          <form class="thanh-nhap-password">
+              <h2>đăng nhập</h2>
+              <div class="account-password">
+              <h3>Tên tài khoản hoặc địa chỉ email*</h3>
+              <input type="text">
+               </div>
+              <div class="account-password">
+              <h3>Mật khẩu*</h3>
+              <input type="password">
+              </div>
+            <div class="nut-dang-nhap">
+                  <button type="submit">Đăng nhập</button>
+                  <input type="checkbox">
+                <h3>Ghi nhớ mật khẩu</h3>
+              </div>
+              <h3><a href="" target="_self">Quên mật khẩu?</a></h3>
+          </form>
+      </div>
+  <!----------------Phần NAV------------------>
+  <nav >
+    <div class="allnav" id="allnav">
+    <div class="topfirst">
+        <div class="anhlogo"><img src="images2/logothuonghieu.png" alt="ảnh"></div>
+       
+        <div class="tenthuonghieu">
+<h1> Fresh Cake</h1>
+        </div>
+        <div class="thanhtimkiem"> 
+            <form class="menu-search">
+                <span><i class="fas fa-search"></i></span>
+                <input type="text" name="query" value autocomplete ="off" placeholder="Tìm kiếm ở đây....">
+                <input type="submit" value="Tìm kiếm"></input>		
+            </form>
+        </div>
+        <div class="all-menu-right">
+            <div>
+                <a class="dang-nhap" href="#dang-nhap " target="_self">đăng nhập / đăng ký</a>
+            </div>
+            <div>
+                <a href="" target="_self">giỏ hàng / 0 <span> đ </span><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="bia" id="bia">
+        <ul>
+            <li><a href="index.html" target="_self"><i class="fas fa-home"></i> Trang Chủ</a></li>
+            <li><a href="trang_gioi_thieu.html" target="_self">Giới Thiệu</i></a></li>
+            <li class="last">
+                <a target="javascript:;" >Kem các loại <i class="fas fa-caret-down"></i></a>
+                <ul class="list suplast" >
+                    <li><a href="trang_banh_sinh_nhat.html" target="_self"><i class="fas fa-circle"></i> Bánh sinh nhật</a></li>
+                    <li><a href="trang_banh_sinh_nhat.html" target="_self"><i class="fas fa-circle"></i> Bánh bông lan</a></li>
+                    <li><a href="trang_banh_sinh_nhat.html" target="_self"><i class="fas fa-circle"></i> Bánh cupcake</a></li>
+                    <li><a href="trang_banh_sinh_nhat.html" target="_self"><i class="fas fa-circle"></i> Kem ly</a></li>
+                </ul>
+            </li>  
+            <li><a href="trang_tin_tuc_su_kien.html" target="_self">Tin Tức - Sự kiện</a></li>
+            <li><a href="trang_khuyen_mai1.html" target="_self">Khuyến Mãi</a></li>
+            <li><a href="trang_lien_he.html" target="_self">Liên Hệ</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+    <!----------------------Phần HEADER---------------------->
+    <header>
+        <div class="anh-header" style="background-image: url(images3/ảnh\ header.jpg);">
+       <div class="text-in-anh-header">
+            <h1>Tin Tức & Sự Kiện</h1>
+            <p>Kiểm Tra Các Tin Tức & Sự Kiện Mới Nhất</p>
+        </div>
+        </div>
+        
+    </header>
+<!---------------Phần tin tức-------------------------------->
+    <section>
+        <div class="all-news-events">
+           <a href="#" class ="active-button-news" ><p>Tin Tức & Sự Kiện</p></a> 
+           <a href="trang_tin_tuc.html"><p>Tin Tức </p></a> 
+           <a href="trang_su_kien.html"><p>Sự Kiện</p></a> 
+        </div>
+    </section>
+    <div class="image-after-banner">
+        <img src="images3/ảnh banner after.jpg" class ="banner-after-image">
+        <h1>
+            Tin Tức & Sự Kiện 
+        </h1>
+<p>
+            Bộ sưu tập mùa thu 
+        </p>
+    </div>
+    <!-----------------------Phần card tin tức-------------------------------------------------------------->
+    <div class ="news-and-events">
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/bánh trung thu.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">21</span><br>
+                <span class="card-thang">Sep</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Sự kiện</div>
+                <h2 class="card-tieu-de">Chào mừng tết trung thu (15/8 âm lịch)</h2>
+                <div class="card-sub">Mua bánh, Cào thẻ - Trúng tiền </div>
+                <p class="card-mo-ta">Ngày 21 tháng 9 ( tức 15/8 ÂL) , 
+                    bạn sẽ nhận được một thẻ cào khi mua thanh toán hóa đơn trên 100k,
+                    nếu cào được số 219 hoặc 158 bạn sẽ nhận được 50k
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">45 mins ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">86 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc ">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/quốc khánh.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">02</span><br>
+                <span class="card-thang">Sep</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Sự kiện</div>
+                <h2 class="card-tieu-de">Chào mừng lễ quốc khánh (2/9/2021)</h2>
+                <div class="card-sub">Mở bán - giảm giá loại bánh mới</div>
+                <p class="card-mo-ta">Chào mừng 76 năm thành lập nước Cộng hòa xã hội chủ nghĩa Việt Nam, Nhà xin thông
+                    báo ra mắt combo quốc khánh, đồng thời giảm giá 50% trên tổng hóa đơn khi mua 1 combo </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">10 days ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">214 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc ">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/tháng 9.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">01</span><br>
+                <span class="card-thang">Sep</span>
+            </div>
+            <div class="card-body">
+<div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Chào tháng 9 - tháng mới năng lượng mới</h2>
+                <div class="card-sub">Tháng 9 bùng nổ </div>
+                <p class="card-mo-ta">Tháng 9 này, hãy đón nhận sự kiện giảm giá lớn của the Bake House
+                    quý khách sẽ được giảm tối đa 10% hóa đơn trên 1 triệu đồng
+                    và 5% trên hóa đơn 500k (1/9-20/9)
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">10 days ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">168 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc ">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/backtoschool.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">20</span>
+                <span class="card-thang">Aug</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">giảm giá mùa tựu trường 2021-2022</h2>
+                <div class="card-sub">Giảm sốc lên đến 20% (20/8 - 31/9)</div>
+                <p class="card-mo-ta">Bạn sẽ nhận được giảm giá 20% khi bạn mua những loại bánh kem sinh nhật 
+                    kem lạnh và những loại bánh tiramisu, nào hãy đến ngay với The Bake House đi các bạn nhỏ ơi!!
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">20 days ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">215 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/cuối hè.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">10</span>
+                <span class="card-thang">Aug</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Bùng nổ cuối hè - kết thúc một mùa hè đặc biệt</h2>
+                <div class="card-sub">điều đặc biệt đang chờ đón bạn</div>
+                <p class="card-mo-ta">Để tri ân một mùa hè đặc biệt có 1 không 2 này, The Bake House 
+                    quyết định ra mắt những loại bánh mới, hãy tìm hiểu xem đó là gì nhé các bạn!!
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">1 month ago <i class="far fa-clock"></i></span>
+<span class="icon-chatbox">312 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/vu lan.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">08</span>
+                <span class="card-thang">Aug</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Sự kiện</div>
+                <h2 class="card-tieu-de">lễ vu lan báo hiếu ( rằm tháng 7 âm lịch)</h2>
+                <div class="card-sub">cùng tri ân những đấng sinh thành</div>
+                <p class="card-mo-ta">Bạn sẽ nhận được một cánh hoa hồng tươi thắm 
+                    khi mua một chiếc bánh bất kỳ của The Bake House, và một giỏ hoa hồng 
+                    khi một trọn combo Vu Lan báo hiếu
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">1 month ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">102 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/sinh nhật.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">25</span> <br>
+                <span class="card-thang">Jul</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">sự kiện</div>
+                <h2 class="card-tieu-de">Mừng sinh nhật lần thứ 7 của the bake house 1/8</h2>
+                <div class="card-sub">Sự kiện lớn nhất năm 2021</div>
+                <p class="card-mo-ta">The Bake House xin chân thành cám ơn quý khách đã đồng hành với The Bake House 
+                    suối 07 năm qua , nhân dịp này Nhà sẽ giảm giá 40% trên tổng hóa đơn 300k (25/7-1/8)
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">2 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">501 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/tết thiếu nhi.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">26</span>
+                <span class="card-thang">Jun</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Sự Kiện</div>
+<h2 class="card-tieu-de">Mừng lễ tết thiếu nhi (1/6/2021)</h2>
+                <div class="card-sub">Mua bánh trúng hình </div>
+                <p class="card-mo-ta">Từ 25/5 đến 1/6 , khi quý khách một loại bánh bất kì, quý khách sẽ nhận được một thẻ 
+                    hình đặc biệt, tích đủ 10 thẻ sẽ được nhận một bánh kem đặc biệt dành cho sự kiện này 
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">2 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">152 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/hè.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">15</span>
+                <span class="card-thang">May</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Mùa hè đến rồi - cùng bùng nổ thôi</h2>
+                <div class="card-sub">Ra mắt bánh mới - kem mới </div>
+                <p class="card-mo-ta">Từ ngày 15/5/2021 The Bake House ra mắt những loại bánh và kem mới, ngoài ra 
+                    khi các bạn mua 1 trong 2 loại mới này ,bạn sẽ được phiếu tích điểm, đủ 10 phiếu đổi ngay 100k
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">4 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">25 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/quốc tế la động.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">01</span>
+                <span class="card-thang">May</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Chào mừng lễ quốc tế lao động 1/5</h2>
+                <div class="card-sub">Giảm giá sốc lên đến 10% </div>
+                <p class="card-mo-ta">Từ ngày 1/5 đến 5/5 quý khách sẽ được giảm giá lên đến 10% cho các loại bánh trên 100k, ngoài ra nếu
+                    hóa đơn trên 500k , quý khách sẽ được giảm tối đa 20% tùy loại bánh  
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">4 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">224 comments <i class="far fa-comment-dots"></i></span>
+</div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/30-4.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">30</span>
+                <span class="card-thang">Apr</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Kỉ niệm 46 năm giải phóng miền Nam</h2>
+                <div class="card-sub">30/4/1975 - 30/4/2021</div>
+                <p class="card-mo-ta">Kỉ niệm 46 năm giải phóng miền Nam, The Bake House quyết định áp dụng chương trình mua 2 tặng 1 
+                dành cho tất cả những loại bánh từ 25/4 đến 30/4/2021
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">4 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">222 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/qtpn.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">08</span>
+                <span class="card-thang">Mar</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Kỉ niệm ngày quốc tế phụ nữ 8/3/2021</h2>
+                <div class="card-sub">44 năm ngày phụ nữ được tôn vinh</div>
+                <p class="card-mo-ta">Một combo yêu thương thì sao nhỉ? 8/3 này The Bake House sẽ ra mắt combo yêu thương với giá
+                    cực kì ưu đãi là 180k, hãy cho người yêu thương của bạn 1 bộ ngay nhé!
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">6 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">317 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/valentine.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">14</span><br>
+                <span class="card-thang">Feb</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Lễ tình nhân - Valentine (14/2/2021)</h2>
+                <div class="card-sub">Mở bán combo tình nhân</div>
+<p class="card-mo-ta">Từ ngày 10-2 đến 14-2 , The Bake House sẽ mở bán combo tình nhân dành cho cặp 
+                    đôi với giá ưu đãi, ngoài ra quý khách sẽ nhận được một đóa hoa tặng người mình yêu
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">7 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">240 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/tết.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">30</span>
+                <span class="card-thang">Jan</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">thông báo tạm nghỉ từ 5/2/2021 đến hết 13/2/2021  </h2>
+                <div class="card-sub">Chào mừng tết nguyên đán Tân Sửu</div>
+                <p class="card-mo-ta">Tết đến , The Bake House xin chúc mọi người Vạn sự như ý, Tỉ sự như mơ,
+                    Triệu triệu bất ngờ và ngập tràn hạnh phúc. Xin cám ơn & Hẹn gặp lại quý khách vào năm mới 
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">8 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">451 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/2021.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">01</span>
+                <span class="card-thang">Jan</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Thông báo tạm nghỉ vào ngày 30/12/2020 1/1/2021</h2>
+                <div class="card-sub">Chúc mừng năm mới！</div>
+                <p class="card-mo-ta">The Bake House sẽ tạm nghỉ vào ngày 30/12/2020 - 1/1/2021, mọi người có thể mua
+                    tranh thủ mua những sản phẩm mới 
+                    dịp tết sau 2/1/2021 của Nhà nhé
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">9 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">107 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+<img src="images3/bánh hoàng kim.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">28</span>
+                <span class="card-thang">Dec</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Mở bán bộ combo hoàng kim Tết</h2>
+                <div class="card-sub">Từ 2/1/2021</div>
+                <p class="card-mo-ta">Một bộ bánh hoàng kim cho dịp tết với giá 200k một bộ, cực kì ưu đãi,
+                    ngoài ra còn được mua 1 tặng 1, hãy đến và trải nghiệm chiếc bánh vương giả này ngay nhé
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">10 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">132 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/2512.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">25</span>
+                <span class="card-thang">Dec</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Sự Kiện</div>
+                <h2 class="card-tieu-de">Chào mừng lễ giáng sinh 25/12/2020</h2>
+                <div class="card-sub">Ấm áp nhé các bạn yêu ơi！</div>
+                <p class="card-mo-ta">Giáng sinh này, The Bake House giảm giá đến 10% trên tổng hóa đơn bất kì trên 2 bánh, ngoài ra 
+                    bạn sẽ nhận được 1 hộp trà ngon khi hóa đơn trên 400k
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">11 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">402 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/2011.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">20</span>
+                <span class="card-thang">Nov</span>
+                </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Chào mừng Ngày nhà giáo Việt Nam 20/11！</h2>
+                <div class="card-sub">cùng nhà tri ân thầy cô nhé！</div>
+                <p class="card-mo-ta">Hãy cùng The Bake House tri ân thầy cô bằng cách mua combo tri ân nhé, bạn 
+                    sẽ nhận được một bó hoa tương ứng với hóa đơn bạn bỏ ra mua combo
+</p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">1 year ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">289 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/2010.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">20</span>
+                <span class="card-thang">Oct</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Chào mừng ngày phụ nữ Việt Nam 20/10/2020！</h2>
+                <div class="card-sub">Cùng tri ân những người phụ nữ ！</div>
+                <p class="card-mo-ta">Hãy cùng tri ân những người phụ nữ bên cạnh mình các bạn nhé, ngày 20/10/2020 các bạn sẽ 
+                    được giảm 15% trên tổng hóa đơn 200k,bạn sẽ được tặng một bông hoa hồng
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">1 year ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">342 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/bánh trung thu hoàng kim.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">01</span><br>
+                <span class="card-thang">Oct</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin tức</div>
+                <h2 class="card-tieu-de">Chào mừng tết trung thu (15/8/2020 ÂL)</h2>
+                <div class="card-sub">Combo bánh hoàn toàn mới</div>
+                <p class="card-mo-ta">Từ ngày 20/9/2020 - 10/10/2020 The Bake House quyết định mở bán combo bánh 
+                    trung thu hoàng kim với giá cực sốc là 300k, hãy đến và trải nghiệm ngay các bạn nhé!
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">1 year ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">271 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="xem-them-tin-tuc">
+        <h3>Xem Thêm</h3>
+    </div>
+    <div class ="news-and-events">
+        <div class="card-tin-tuc tin_tuc_js">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/bánh trung thu.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+<span class="card-ngay">21</span><br>
+                <span class="card-thang">Sep</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Sự kiện</div>
+                <h2 class="card-tieu-de">Chào mừng tết trung thu (15/8 âm lịch)</h2>
+                <div class="card-sub">Mua bánh, Cào thẻ - Trúng tiền </div>
+                <p class="card-mo-ta">Ngày 21 tháng 9 ( tức 15/8 ÂL) , 
+                    bạn sẽ nhận được một thẻ cào khi mua thanh toán hóa đơn trên 100k,
+                    nếu cào được số 219 hoặc 158 bạn sẽ nhận được 50k
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">45 mins ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">86 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc tin_tuc_js ">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/quốc khánh.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">02</span><br>
+                <span class="card-thang">Sep</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Sự kiện</div>
+                <h2 class="card-tieu-de">Chào mừng lễ quốc khánh (2/9/2021)</h2>
+                <div class="card-sub">Mở bán - giảm giá loại bánh mới</div>
+                <p class="card-mo-ta">Chào mừng 76 năm thành lập nước Cộng hòa xã hội chủ nghĩa Việt Nam, Nhà xin thông
+                    báo ra mắt combo quốc khánh, đồng thời giảm giá 50% trên tổng hóa đơn khi mua 1 combo </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">10 days ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">214 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc tin_tuc_js ">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/tháng 9.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">01</span><br>
+                <span class="card-thang">Sep</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Chào tháng 9 - tháng mới năng lượng mới</h2>
+                <div class="card-sub">Tháng 9 bùng nổ </div>
+                <p class="card-mo-ta">Tháng 9 này, hãy đón nhận sự kiện giảm giá lớn của the Bake House
+                    quý khách sẽ được giảm tối đa 10% hóa đơn trên 1 triệu đồng
+                    và 5% trên hóa đơn 500k (1/9-20/9)
+                </p>
+</div>
+            <div class="card-footer">
+                <span class="icon-hour">10 days ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">168 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc tin_tuc_js">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/backtoschool.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">20</span>
+                <span class="card-thang">Aug</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">giảm giá mùa tựu trường 2021-2022</h2>
+                <div class="card-sub">Giảm sốc lên đến 20% (20/8 - 31/9)</div>
+                <p class="card-mo-ta">Bạn sẽ nhận được giảm giá 20% khi bạn mua những loại bánh kem sinh nhật 
+                    kem lạnh và những loại bánh tiramisu, nào hãy đến ngay với The Bake House đi các bạn nhỏ ơi!!
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">20 days ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">215 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc tin_tuc_js">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/cuối hè.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">10</span>
+                <span class="card-thang">Aug</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Tin Tức</div>
+                <h2 class="card-tieu-de">Bùng nổ cuối hè - kết thúc một mùa hè đặc biệt</h2>
+                <div class="card-sub">điều đặc biệt đang chờ đón bạn</div>
+                <p class="card-mo-ta">Để tri ân một mùa hè đặc biệt có 1 không 2 này, The Bake House 
+                    quyết định ra mắt những loại bánh mới, hãy tìm hiểu xem đó là gì nhé các bạn!!
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">1 month ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">312 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc tin_tuc_js">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/vu lan.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">08</span>
+                <span class="card-thang">Aug</span>
+            </div>
+<div class="card-body">
+                <div class="card-category">Sự kiện</div>
+                <h2 class="card-tieu-de">lễ vu lan báo hiếu ( rằm tháng 7 âm lịch)</h2>
+                <div class="card-sub">cùng tri ân những đấng sinh thành</div>
+                <p class="card-mo-ta">Bạn sẽ nhận được một cánh hoa hồng tươi thắm 
+                    khi mua một chiếc bánh bất kỳ của The Bake House, và một giỏ hoa hồng 
+                    khi một trọn combo Vu Lan báo hiếu
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">1 month ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">102 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc tin_tuc_js">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/sinh nhật.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">25</span> <br>
+                <span class="card-thang">Jul</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">sự kiện</div>
+                <h2 class="card-tieu-de">Mừng sinh nhật lần thứ 7 của the bake house 1/8</h2>
+                <div class="card-sub">Sự kiện lớn nhất năm 2021</div>
+                <p class="card-mo-ta">The Bake House xin chân thành cám ơn quý khách đã đồng hành với The Bake House 
+                    suối 07 năm qua , nhân dịp này Nhà sẽ giảm giá 40% trên tổng hóa đơn 300k (25/7-1/8)
+                </p>
+            </div>
+            <div class="card-footer">
+                <span class="icon-hour">2 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">501 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+        <div class="card-tin-tuc tin_tuc_js">
+            <div class="card-hinh-nen-tin-tuc">
+                <img src="images3/tết thiếu nhi.jpg" alt="bánh trung thu">
+            </div>
+            <div class="ngay-thang">
+                <span class="card-ngay">26</span>
+                <span class="card-thang">Jun</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Sự Kiện</div>
+                <h2 class="card-tieu-de">Mừng lễ tết thiếu nhi (1/6/2021)</h2>
+                <div class="card-sub">Mua bánh trúng hình </div>
+                <p class="card-mo-ta">Từ 25/5 đến 1/6 , khi quý khách một loại bánh bất kì, quý khách sẽ nhận được một thẻ 
+                    hình đặc biệt, tích đủ 10 thẻ sẽ được nhận một bánh kem đặc biệt dành cho sự kiện này 
+                </p>
+            </div>
+            <div class="card-footer">
+<span class="icon-hour">2 months ago <i class="far fa-clock"></i></span>
+                <span class="icon-chatbox">152 comments <i class="far fa-comment-dots"></i></span>
+            </div>
+        </div>
+</div>
+    <!-----------------------phần FOOTER----------------------->
+    <footer>
+        <div class="foots">
+        <div class="top-footer">
+            <div>
+                <i class="fas fa-truck"></i> <h3>MIỄN PHÍ VẬN CHUYỂN
+                    Cho Đơn Đặt Hàng Trên 300.000 Đ</h3>
+            </div>
+            <div>
+                <i class="fas fa-undo"></i><h3> HOÀN 100% TIỀN MUA HÀNG
+                    Trong vòng 7 ngày</h3>
+            </div>
+            <div>
+                <i class="fas fa-shopping-bag"></i> <h3>GIAO HÀNG NHANH CHÓNG
+                    Sau 2h kể từ khi xác nhận</h3>
+            </div>
+            <div>
+                 <i class="fas fa-phone-volume"></i> <h3> Hotline - Hỗ trợ trực tuyến:
+                    0987535533 - 0463289232</h3>
+            </div>
+        </div>
+        <div class="all-footer">
+        <div class="foot">
+            <h2>Liên hệ</h2>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Địa chỉ: 319/18 Lê Thánh Tông, Phường 15, Quận 11, Tp.HCM</li>
+                <li><i class="fas fa-phone"></i> Điện thoại:<a href="tel:086502857" target="_blank"> 086502857</a></li>
+                <li><i class="fas fa-envelope"></i>  Gmail:<a href="mailto:2051052034hai@ou.edu.vn" target="_blank">2051052034hai@ou.edu.vn</a> </li>     
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Danh mục</h2>
+            <ul>
+                <li><a href="trang_banh_sinh_nhat.html" target="_blank">Bánh sinh nhật</a></li>
+                <li><a href="*" target="_blank">Bánh bông lan</a></li>
+                <li><a href="*" target="_blank">Bánh cupcake</a></li>
+                <li><a href="*" target="_blank">Kem ly</a></li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Mục lục</h2>
+            <ul>
+                <li><a href="index.html" target="_blank">Trang chủ</a></li>
+                <li><a href="trang_gioi_thieu.html" target="_self">Giới thiệu</a></li>
+                <li><a href="#" target="_self">Kem các loại</a></li>
+                <li><a href="trang_su_kien.html" target="_self">Tin tức-sự kiện</a></li>
+                <li><a href="trang_khuyen_mai1.html" target="_self">Khuyến mãi</a></li>
+                <li><a href="trang_lien_he.html" target="_self">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Liên kết</h2>
+            <ul>
+                <li><a href="#" target="_blank">Tài khoản</a></li>
+                <li><a href="#" target="_blank">Địa chỉ ngân hàng</a></li>
+                <li><a href="#" target="_blank">Theo dõi</a></li>
+                <li><a href="#" target="_blank">Hướng dẫn</a></li>
+                <li><a href="trang_lien_he.html" target="_self">Liên hệ</a></li>
+            </ul>
+            <div class="foot">
+                <span class ="facebook"><a href="https:www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+                <span class ="youtube"><a href="https:www.youtube.com" target="_blank"><i class="fab fa-youtube"></a></i></span>
+                <span class="twitter"><a href="https:www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></a></i></span>
+                <span class="instagram"><a href="https:www.instagram.com" target="_blank"><i class="fab fa-instagram"></a></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="bottom-footer">
+            <h4>&copy; Come with me to experience the taste of cake.</h4>
+        </div>
+    </footer>
+</body>
+</html>

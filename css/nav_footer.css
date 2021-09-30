@@ -11,6 +11,7 @@
     background-image: linear-gradient(#FF69B4,#FFC0CB);
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
 }
 div.anhlogo{
     width: 12%;
@@ -19,7 +20,9 @@ div.anhlogo{
 div.anhlogo img{
    width: 100%;
 }
-
+.last{
+    color: whitesmoke;
+}
 div.tenthuonghieu{
     width: 22%;
 }
@@ -71,7 +74,6 @@ div.all-menu-right a{
         background-color: #FF1493;
         color: white;
         font-weight: bold;
-       
         text-transform: uppercase;
         text-decoration: none;
     }
