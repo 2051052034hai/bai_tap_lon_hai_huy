@@ -88,7 +88,7 @@ span.content-lien-he{
 }
 .background-contact
 {
-   background-image: url("/bai_tap/images5/background.jpg");
+   background-image: url("images5/background.jpg");
    background-size: cover;
    background-attachment: fixed;
 }
