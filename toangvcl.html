@@ -1,0 +1,57 @@
+<html>
+    <style >
+        h1{
+            border: 1px dashed ;
+            padding:10px 15px ;
+            color:blue;
+            background-color:yellow
+        }
+        ul{
+            list-style:none;
+        }
+        div{
+            background: yellow;
+            display:inline-block
+        }
+        p{
+            background-color: blue;
+            color:white
+        }
+    </style>
+    
+    <body>
+        <h1>nguyen thanh hai</h1>
+        <ul>
+            <li>tao</li>
+            <li>tao</li>
+            <li>tao</li>
+            <li>tao</li>
+            <li>tao</li>
+        </ul>
+        <div><pre>ttttttttttt</pre>nguyen thanh hajkljlkjlkjlki</div>
+        <p id ="kq"> </p>
+    </body>
+        <script> 
+    var dem = 0;
+    function songto(x)
+    {
+        if(x % 2 == 0) return true;
+       else return false;
+    }
+        function thong_ke_mang(n)
+        {
+            var x = document.getElementById("kq"); 
+            var a = new Array();
+            for(var i = 0; i < n; i++)
+            {
+                a[i] = Math.random() * 100;
+                var o = a[i].tofixed(); 
+                document.write(o + " ");
+                if(songto(o) == true)
+                    dem++;
+            }
+            x.innerHTML = dem; 
+        }
+        Document.write(thong_ke_mang(10))
+    </script>
+</html>
