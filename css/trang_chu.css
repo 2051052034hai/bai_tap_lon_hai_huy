@@ -139,7 +139,7 @@
        width: 20%;
        margin: 0.5%; 
        position:relative;
-  background-color: #dfdfdf;
+       background-color: #dfdfdf;
        padding-top: 50px;
        padding-left: 10px;
        padding-right: 10px; 
@@ -205,7 +205,7 @@
   div.gia > h3{
      text-align: center;
      padding-top: 30px;
-     font-size: 30px;
+     font-size: 23px;
   }
   div.gia > h3 > span:first-child{
      color:red;
@@ -256,16 +256,16 @@
      color:red;
      font-weight: bold;
      text-decoration:line-through 2px solid black;
-     font-size: 25px;
-     
+     font-size: 23px;
   }
   div .dangkhuyenmai > h3 .giakhuyenmai{
      font-weight: bold;
      color: red;
-     font-size: 30px;
+     font-size: 23px;
   }
   div .dangkhuyenmai > h3 >span:last-child{
   padding-left: 15px;
+  font-size: 23px;
   }
   div .dangkhuyenmai > h3 >span:last-child > a{
      text-decoration: none;
@@ -281,7 +281,7 @@
   } 
   .giamgia{
      background-color:black;
-  display: block;
+    display: block;
     position: absolute;
     top: 0px; right:0px;
     padding: 12px 10px 12px 15px;
